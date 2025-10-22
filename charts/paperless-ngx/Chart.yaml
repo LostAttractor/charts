@@ -18,14 +18,14 @@ dependencies:
     version: 1.5.1
   - name: postgresql
     version: 14.0.5
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
     condition: postgresql.enabled
   - name: mariadb
     version: 20.1.1
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
     condition: mariadb.enabled
   - name: redis
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
     version: 20.7.0
     condition: redis.enabled
 sources:

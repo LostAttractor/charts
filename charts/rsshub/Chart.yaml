@@ -17,7 +17,7 @@ dependencies:
     repository: https://bjw-s-labs.github.io/helm-charts
     version: 1.5.1
   - name: redis
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
     version: 20.7.0
     condition: redis.enabled
 sources:

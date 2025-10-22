@@ -20,11 +20,11 @@ dependencies:
     version: 1.5.1
   - name: mariadb
     version: 20.1.1
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
     condition: mariadb.enabled
   - name: postgresql
     version: 14.0.5
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
     condition: postgresql.enabled
 annotations:
   artifacthub.io/changes: |-

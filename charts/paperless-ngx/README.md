@@ -26,9 +26,9 @@ Kubernetes: `>=1.22.0-0`
 | Repository | Name | Version |
 |------------|------|---------|
 | <https://bjw-s-labs.github.io/helm-charts> | common | 1.5.1 |
-| <https://charts.bitnami.com/bitnami> | mariadb | 20.1.1 |
-| <https://charts.bitnami.com/bitnami> | postgresql | 14.0.5 |
-| <https://charts.bitnami.com/bitnami> | redis | 20.7.0 |
+| <oci://registry-1.docker.io/bitnamicharts> | mariadb | 20.1.1 |
+| <oci://registry-1.docker.io/bitnamicharts> | postgresql | 14.0.5 |
+| <oci://registry-1.docker.io/bitnamicharts> | redis | 20.7.0 |
 
 ## Installing the Chart
 

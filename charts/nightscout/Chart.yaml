@@ -19,7 +19,7 @@ dependencies:
     version: 1.5.1
   - name: mongodb
     version: 16.3.1
-    repository: https://charts.bitnami.com/bitnami
+    repository: oci://registry-1.docker.io/bitnamicharts
 sources:
   - https://github.com/nightscout/cgm-remote-monitor
 annotations:

@@ -3,10 +3,10 @@ dependencies:
   repository: https://bjw-s-labs.github.io/helm-charts
   version: 1.5.1
 - name: postgresql
-  repository: https://charts.bitnami.com/bitnami
-  version: 14.0.5
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 14.3.3
 - name: mariadb
-  repository: https://charts.bitnami.com/bitnami
-  version: 20.1.1
-digest: sha256:b6d6d7a3e471ac5f0df1966d8401e62be980468af4499a284d65b131af0f39d6
-generated: "2025-07-21T08:28:09.864682956+08:00"
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 20.5.9
+digest: sha256:9c52a0c18373c6d42c3a20a55d6f5943348c0f77b0fd499b6d867a3e5cc0b7b6
+generated: "2025-10-22T19:44:50.838064395+08:00"

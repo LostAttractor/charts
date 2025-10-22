@@ -42,7 +42,7 @@ jobs:
 
       - name: Add Helm repos
         run: |
-          helm repo add bitnami https://charts.bitnami.com/bitnami
+          helm repo add bitnami oci://registry-1.docker.io/bitnamicharts
           helm repo add bjw-s https://bjw-s-labs.github.io/helm-charts
 
       - name: Remove readme images
